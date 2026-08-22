@@ -1,10 +1,10 @@
-# 🌴 Wisata Jabodetabek
+# Wisata Jabodetabek
 
 Website katalog wisata Jabodetabek yang membantu pengguna menemukan berbagai destinasi wisata di **Jakarta, Bogor, Depok, Tangerang, dan Bekasi** berdasarkan kategori dan lokasi.
 
 Website dibuat dengan tampilan modern, responsif, serta menyediakan fitur pencarian, filter wisata, detail destinasi, peta lokasi, dan pilihan tema terang/gelap.
 
-## ✨ Preview
+## Preview
 
 ### Dark Mode
 <p align="center">
@@ -21,37 +21,37 @@ Website dibuat dengan tampilan modern, responsif, serta menyediakan fitur pencar
   <img src="Screenshot/detail-tmii.png" alt="Detail destinasi Taman Mini Indonesia Indah" width="850">
 </p>
 
-## 🚀 Fitur
+## Fitur
 
-- 🔎 **Pencarian wisata** berdasarkan nama tempat
-- 🏷️ **Filter kategori**:
+- **Pencarian wisata** berdasarkan nama tempat
+- **Filter kategori**:
   - Taman
   - Sejarah
   - Hiburan
   - Museum
   - Kuliner
-- 📍 **Filter berdasarkan kota**:
+- **Filter berdasarkan kota**:
   - Jakarta
   - Bogor
   - Depok
   - Tangerang
   - Bekasi
-- ⭐ Menampilkan **rating dan jumlah ulasan**
-- 💰 Menampilkan **harga tiket**
-- 🖼️ Kartu destinasi dengan gambar dan informasi singkat
-- 📋 **Detail destinasi** dalam tampilan modal
-- 🗺️ **Peta lokasi** destinasi
-- 🌙 **Dark Mode / Light Mode**
-- 📱 Tampilan **responsive** untuk berbagai ukuran layar
+- Menampilkan **rating dan jumlah ulasan**
+- Menampilkan **harga tiket**
+- Kartu destinasi dengan gambar dan informasi singkat
+- **Detail destinasi** dalam tampilan modal
+- **Peta lokasi** destinasi
+- **Dark Mode / Light Mode**
+- Tampilan **responsive** untuk berbagai ukuran layar
 
-## 🛠️ Teknologi
+## Teknologi
 
 - **HTML5** — struktur halaman
 - **CSS3** — desain, layout, responsive UI, dan tema
 - **JavaScript** — pencarian, filter, modal detail, dan interaksi halaman
 - **Google Maps** — menampilkan lokasi destinasi
 
-## 📂 Struktur Folder
+## Struktur Folder
 
 ```text
 Web Wisata Jabodetabek/
@@ -67,7 +67,7 @@ Web Wisata Jabodetabek/
 └── README.md
 ```
 
-## ▶️ Cara Menjalankan
+## Cara Menjalankan
 
 Karena website menggunakan HTML, CSS, dan JavaScript, website dapat dijalankan langsung di browser.
 
@@ -87,7 +87,7 @@ cd "Web Wisata Jabodetabek"
 
 > **Catatan:** Ganti `USERNAME/REPOSITORY` dengan username GitHub dan nama repository kamu.
 
-## 📌 Contoh Destinasi
+## Contoh Destinasi
 
 Beberapa destinasi yang ditampilkan dalam website:
 
@@ -98,16 +98,16 @@ Beberapa destinasi yang ditampilkan dalam website:
 - Ancol — Jakarta
 - The Jungle Water Adventure — Bogor
 
-## 🎯 Tujuan Project
+## Tujuan Project
 
 Project ini dibuat sebagai website informasi wisata yang memudahkan pengguna dalam **mencari, memfilter, dan melihat informasi destinasi wisata di wilayah Jabodetabek** dalam satu halaman yang sederhana dan mudah digunakan.
 
-## 👨‍💻 Author
+## Author
 
-**Fakhriy**
+**Muhammad Fakhriy Al Farizi**
 
 Mahasiswa Sistem Informasi — Universitas Gunadarma
 
 ---
 
-⭐ Jika project ini bermanfaat, jangan lupa berikan **Star** pada repository.
+Jika project ini bermanfaat, jangan lupa berikan **Star** pada repository.

@@ -1,0 +1,154 @@
+<!doctype html>
+<html lang="id">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>Wisata Jabodetabek - Demo</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- NAVBAR ATAS: Logo, Search, Theme Toggle -->
+    <header class="navbar" id="navbar">
+        <div class="brand">
+            <div class="logo">🌴</div>
+            <div>Wisata Jabodetabek</div>
+        </div>
+
+        <div class="navbar-controls">
+            <div class="search">
+                <input placeholder="Cari tempat wisata..." id="searchInput">
+                <i class="fas fa-search"></i>
+            </div>
+
+            <button class="toggle-btn" id="themeToggle">
+                <i class="fas fa-moon"></i>
+            </button>
+        </div>
+    </header>
+
+    <main class="container">
+        <!-- HEADER DENGAN JUDUL DAN FILTER -->
+        <div class="page-header">
+            <div class="header-content">
+                <h1>Jelajahi Wisata Jabodetabek</h1>
+                <p class="lead">Temukan destinasi wisata terbaik di Jakarta, Bogor, Depok, Tangerang, dan Bekasi</p>
+            </div>
+
+          
+            <div class="filter-section-container">
+                <div class="filter-section">
+                    <div class="filter-title">
+                        <i class="fas fa-filter"></i> Kategori:
+                    </div>
+                    <div class="filter-pills" id="categoryPills">
+                        <button class="filter-pill active" data-cat="Semua">
+                            <i class="fas fa-th"></i> Semua
+                        </button>
+                        <button class="filter-pill" data-cat="Taman">
+                            <i class="fas fa-tree"></i> Taman
+                        </button>
+                        <button class="filter-pill" data-cat="Sejarah">
+                            <i class="fas fa-landmark"></i> Sejarah
+                        </button>
+                        <button class="filter-pill" data-cat="Hiburan">
+                            <i class="fas fa-theater-masks"></i> Hiburan
+                        </button>
+                        <button class="filter-pill" data-cat="Museum">
+                            <i class="fas fa-university"></i> Museum
+                        </button>
+                        <button class="filter-pill" data-cat="Kuliner">
+                            <i class="fas fa-utensils"></i> Kuliner
+                        </button>
+                    </div>
+                </div>
+
+                <div class="filter-section">
+                    <div class="filter-title">
+                        <i class="fas fa-city"></i> Kota:
+                    </div>
+                    <div class="filter-pills" id="cityPills">
+                        <button class="filter-pill active" data-city="Semua">
+                            <i class="fas fa-globe"></i> Semua
+                        </button>
+                        <button class="filter-pill" data-city="Jakarta">
+                            <i class="fas fa-city"></i> Jakarta
+                        </button>
+                        <button class="filter-pill" data-city="Bogor">
+                            <i class="fas fa-mountain"></i> Bogor
+                        </button>
+                        <button class="filter-pill" data-city="Depok">
+                            <i class="fas fa-home"></i> Depok
+                        </button>
+                        <button class="filter-pill" data-city="Tangerang">
+                            <i class="fas fa-building"></i> Tangerang
+                        </button>
+                        <button class="filter-pill" data-city="Bekasi">
+                            <i class="fas fa-industry"></i> Bekasi
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- GRID TEMPAT WISATA -->
+        <section class="grid" id="grid"></section>
+    </main>
+
+    <!-- MAIN CONTENT -->
+    <main class="container">
+        <h1>Kelompok 4</h1>
+        <p class="lead">Terima kasih sudah menjelajai laman ini</p>
+
+        <section class="grid" id="grid"></section>
+    </main>
+
+    <!-- MODAL  -->
+    <div class="modal-backdrop" id="modalBackdrop">
+        <div class="modal" id="modal">
+            <div class="hero" id="modalHero">
+                <span class="tag" id="modalTag">Taman</span>
+            </div>
+
+            <div class="body">
+                <div class="modal-header-top">
+                    <div>
+                        <h2 id="modalTitle">Nama Tempat</h2>
+                        <div class="meta" id="modalLocation">
+                            <i class="fas fa-map-marker-alt"></i> Lokasi
+                        </div>
+                    </div>
+                    <div class="modal-price-wrapper">
+                        <div id="modalPrice">Rp 0</div>
+                    </div>
+                </div>
+
+                <div class="row" style="margin-top:12px">
+                    <div class="rating-box">
+                        <div>
+                            <div id="modalRating">4.5</div>
+                            <div id="modalReviews">45.230 ulasan</div>
+                        </div>
+                        <div>Harga Tiket</div>
+                    </div>
+                </div>
+
+                <div class="desc-section">
+                    <h3 class="section-title">Deskripsi</h3>
+                    <div class="desc" id="modalDesc"></div>
+                </div>
+
+                <div class="map-section">
+                    <h3 class="section-title">Lokasi Peta</h3>
+                    <div class="map" id="modalMap"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

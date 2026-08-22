@@ -1,77 +1,56 @@
-🌴 Wisata Jabodetabek
+# 🌴 Wisata Jabodetabek
 
-Website katalog wisata yang membantu pengguna menemukan berbagai destinasi wisata di wilayah Jabodetabek, meliputi Jakarta, Bogor, Depok, Tangerang, dan Bekasi.
+Website katalog wisata yang membantu pengguna menemukan berbagai destinasi wisata di wilayah **Jabodetabek**, meliputi Jakarta, Bogor, Depok, Tangerang, dan Bekasi.
 
 Website ini memiliki tampilan modern dan responsif. Pengguna dapat mencari tempat wisata, memfilter berdasarkan kategori maupun kota, serta melihat detail destinasi dan lokasinya pada peta.
 
-✨ Fitur
+## ✨ Fitur
 
-🔎 Pencarian tempat wisata
+- 🔎 **Pencarian tempat wisata**
+- 🏷️ **Filter kategori**
+  - Taman
+  - Sejarah
+  - Hiburan
+  - Museum
+  - Kuliner
+- 📍 **Filter berdasarkan kota**
+  - Jakarta
+  - Bogor
+  - Depok
+  - Tangerang
+  - Bekasi
+- ⭐ Informasi rating dan jumlah ulasan
+- 💰 Informasi harga tiket
+- 📖 Detail dan deskripsi destinasi
+- 🗺️ Lokasi destinasi pada peta
+- 🌙 Dark Mode dan Light Mode
+- 📱 Responsive Design
+- 🖼️ Gambar destinasi wisata
 
-🏷️ Filter kategori
+## 🖥️ Tampilan Website
 
-Taman
-
-Sejarah
-
-Hiburan
-
-Museum
-
-Kuliner
-
-📍 Filter berdasarkan kota
-
-Jakarta
-
-Bogor
-
-Depok
-
-Tangerang
-
-Bekasi
-
-⭐ Informasi rating dan jumlah ulasan
-
-💰 Informasi harga tiket
-
-📖 Detail dan deskripsi destinasi
-
-🗺️ Lokasi destinasi pada peta
-
-🌙 Dark Mode dan Light Mode
-
-📱 Responsive Design
-
-🖼️ Gambar destinasi wisata
-
-🖥️ Tampilan Website
-
-Halaman Utama
+### Halaman Utama
 
 Menampilkan daftar destinasi wisata dalam bentuk card yang berisi gambar, nama tempat, kota, kategori, rating, jumlah ulasan, dan harga tiket.
 
-Filter Wisata
+### Filter Wisata
 
 Pengguna dapat menyaring destinasi berdasarkan kategori dan kota untuk menemukan tempat wisata yang sesuai.
 
-Detail Wisata
+### Detail Wisata
 
 Pengguna dapat membuka detail destinasi untuk melihat informasi seperti deskripsi, rating, harga tiket, serta lokasi wisata pada peta.
 
-🛠️ Teknologi
+## 🛠️ Teknologi
 
-HTML5 — struktur halaman
+- **HTML5** — struktur halaman
+- **CSS3** — tampilan, layout, responsive design, dan tema
+- **JavaScript** — pencarian, filter, interaksi, modal detail, dan tema
+- **Google Maps** — menampilkan lokasi destinasi
 
-CSS3 — tampilan, layout, responsive design, dan tema
+## 📁 Struktur Folder
 
-JavaScript — pencarian, filter, interaksi, modal detail, dan tema
-
-Google Maps — menampilkan lokasi destinasi
-
-📁 Struktur Folder
-
+```text
 Web Wisata Jabodetabek/
 ├── images/
 │   └── gambar destinasi wisata
@@ -81,58 +60,45 @@ Web Wisata Jabodetabek/
 ├── script.js
 ├── style.css
 └── README.md
+```
 
-🚀 Cara Menjalankan
+## 🚀 Cara Menjalankan
 
-Menggunakan Browser
+### Menggunakan Browser
 
-Download atau clone repository.
+1. Download atau clone repository.
+2. Buka folder project.
+3. Jalankan `index.html` menggunakan browser.
 
-Buka folder project.
+### Menggunakan Visual Studio Code
 
-Jalankan index.html menggunakan browser.
+Project dapat dijalankan menggunakan extension **Live Server**.
 
-Menggunakan Visual Studio Code
-
-Project dapat dijalankan menggunakan extension Live Server.
-
+```text
 Klik kanan index.html
 → Open with Live Server
+```
 
-📌 Informasi Project
+## 📌 Informasi Project
 
-Informasi
+| Informasi | Detail |
+|---|---|
+| Nama Project | Wisata Jabodetabek |
+| Jenis | Website Informasi Wisata |
+| Platform | Web |
+| Wilayah | Jabodetabek, Indonesia |
+| Teknologi | HTML, CSS, JavaScript |
 
-Detail
-
-Nama Project
-
-Wisata Jabodetabek
-
-Jenis
-
-Website Informasi Wisata
-
-Platform
-
-Web
-
-Wilayah
-
-Jabodetabek, Indonesia
-
-Teknologi
-
-HTML, CSS, JavaScript
-
-🎯 Tujuan
+## 🎯 Tujuan
 
 Project ini dibuat sebagai website informasi wisata yang sederhana, modern, dan mudah digunakan. Pengguna dapat mencari destinasi wisata berdasarkan nama, kategori, atau kota, kemudian melihat informasi lengkap mengenai destinasi yang dipilih.
 
-👨‍💻 Author
+## 👨‍💻 Author
 
-Fakhriy
+**Fakhriy**
 
 Project ini dibuat sebagai project pengembangan web dan portfolio.
 
-⭐ Jika project ini bermanfaat, jangan lupa memberikan Star pada repository.
+---
+
+⭐ Jika project ini bermanfaat, jangan lupa memberikan **Star** pada repository.
